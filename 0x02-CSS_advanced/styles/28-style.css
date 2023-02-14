@@ -72,21 +72,6 @@ body {
   line-height: var(--line-height-base);
 }
 
-.header {
-  padding: var(--header-padding);
-}
-
-.header-logo {
-  position: var(--header-logo-position);
-}
-
-.header-logo a {
-  display: var(--header-logo-link-display);
-  position: var(--header-logo-link-position);
-  top: var(--header-logo-link-top);
-  left: var(--header-logo-link-left);
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
@@ -126,6 +111,21 @@ a:active {
 
 .visually-hidden {
   display: none;
+}
+
+.header {
+  padding: var(--header-padding);
+}
+
+.header-logo {
+  position: var(--header-logo-position);
+}
+
+.header-logo a {
+  display: var(--header-logo-link-display);
+  position: var(--header-logo-link-position);
+  top: var(--header-logo-link-top);
+  left: var(--header-logo-link-left);
 }
 
 .card-category {
