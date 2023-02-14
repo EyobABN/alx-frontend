@@ -207,15 +207,15 @@ ul.row {
   clear: both;
 }
 
-.card-services .card-title {
+/* .card-services .card-title {
   margin: none;
-}
+} */
 
-/* .card-services a {
+.card-services a {
   display: block;
   padding: 2rem;
   background-color: var(--color-light-grey);
-} */
+}
 
 .card-services a:hover {
   color: var(--color-white);
