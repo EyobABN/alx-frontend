@@ -241,7 +241,6 @@
   
   /* Navbar
       ============================= */
-  
   .nav {
     margin: 0;
     padding: 0;
@@ -289,8 +288,20 @@
   }
 
   @media (max-width: 767px) {
+    :root {
+      --nav-item-margin: 0;
+    }
+
     .navbar-menu {
       display: none;
+      flex: 1;
+    }
+
+    .header .nav {
+      flex-direction: column;
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height .2s ease-out;
     }
   }
   
